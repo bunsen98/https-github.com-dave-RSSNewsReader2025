@@ -1,0 +1,55 @@
+name: rss_reader_flutter
+description: RSS Reader with TTS functionality
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Supabase for data persistence
+  supabase_flutter: ^2.0.0
+
+  # RSS parsing
+  http: ^1.1.0
+  xml: ^6.3.0
+  html: ^0.15.4
+
+  # State management
+  provider: ^6.1.0
+
+  # UI components
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+
+  # TTS
+  flutter_tts: ^3.8.5
+
+  # Audio session management
+  audio_service: ^0.18.12
+
+  # Local storage for preferences
+  shared_preferences: ^2.2.2
+
+  # URL launcher for web views
+  url_launcher: ^6.2.2
+  webview_flutter: ^4.4.2
+
+  # Intl for date formatting
+  intl: ^0.18.1
+
+  # UUID generation
+  uuid: ^4.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
